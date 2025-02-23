@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Edit Report</title>
+  <!-- Bootstrap CSS for styling -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    body { background-color: #f8f9fa; padding: 2rem; }
+    .container {
+      max-width: 800px; margin: auto; background: #fff; padding: 2rem;
+      border-radius: 8px; box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+    textarea { width: 100%; height: 400px; }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1 class="text-center mb-4">Edit Report</h1>
+    {% if message %}
+      <div class="alert alert-success">{{ message }}</div>
+    {% endif %}
+    <form method="POST">
+      <div class="mb-3">
+        <label for="edited_text" class="form-label">Report Content (Editable):</label>
+        <textarea id="edited_text" name="edited_text" class="form-control">{{ edited_text }}</textarea>
+      </div>
+      <!-- Hidden input to carry the original filename -->
+      <input type="hidden" name="original_filename" value="{{ original_filename }}">
+      <div class="text-center mb-3">
+        <button type="submit" class="btn btn-primary">Save Edited Report</button>
+      </div>
+    </form>
+    <!-- New button to get the final report from the hook -->
+    <div class="text-center">
+      <a href="{{ url_for('final_report') }}" class="btn btn-info">Get Final Report</a>
+    </div>
+    <div class="text-center mt-3">
+      <a href="{{ url_for('index') }}" class="btn btn-secondary">Return to Home</a>
+    </div>
+  </div>
+  <elevenlabs-convai agent-id="h0Z4SUEsg1CRFgHzW7HG"></elevenlabs-convai>
+  <script src="https://elevenlabs.io/convai-widget/index.js" async type="text/javascript"></script>
+</body>
+</html>

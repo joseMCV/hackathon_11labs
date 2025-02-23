@@ -1,0 +1,70 @@
+Gastroenterology Department, St Crispin’s Hospital, Donaldstown, DO5 7TP
+Dr. Ruth Jones, Consultant Gastroenterologist
+(01234) 567890
+gj@stcrispins.nhs.uk
+
+Outpatient letter to General Practitioner
+
+<b>Patient demographics</b>:
+Patient name: Ms. Critchard
+Date of birth: not specified
+Gender: not specified
+NHS number: not specified
+Hospital ID: not specified
+Patient address: not specified
+Patient email address: not specified
+Patient telephone number: not specified
+
+<b>Attendance details</b>:
+Date of appointment: not specified
+Contact type: not specified
+Consultation method: not specified
+Seen by doctor: Dr. Ruth Jones, Consultant Gastroenterologist
+Care professionals present: not specified
+Outcome of patient attendance: not specified
+
+<b>Diagnosis</b>:
+1. Suspected proctitis, likely related to ulcerative colitis
+
+<b>History</b>:
+The patient reports rectal bleeding (fresh blood), loose stools (approximately 4 times per day), a sour taste in the mouth upon waking, epigastric pain and heartburn, weight loss, crampy pain in the lower left side, and a family history of inflammatory bowel disease (Crohn's/colitis on maternal side) for the past 3 months.
+
+<b>Family history</b>:
+Several relatives on the maternal side had Crohn’s or colitis.
+
+<b>Social context</b>:
+Not specified
+
+<b>Allergies and adverse reactions</b>:
+Penicillin (patient experienced a generalized severe rash)
+
+<b>Examination findings</b>:
+The abdomen was found to be mildly tender in the left lower abdomen (no guarding or rebound tenderness). Rigid sigmoidoscopy revealed inflamed and ulcerated mucosa up to about 15 cm with contact bleeding.
+
+<b>Investigation findings</b>:
+Not specified
+
+<b>Procedure</b>:
+Rigid sigmoidoscopy performed
+
+<b>Clinical summary</b>:
+Findings suggest ulcerative colitis (proctitis).
+
+<b>Actions for healthcare professionals</b>:
+Schedule a flexible sigmoidoscopy for a more detailed examination, order blood tests (FBC, U&E, LFT, CRP), and perform stool tests to rule out infections (e.g., C. difficile).
+
+<b>Changes to medications and medical devices</b>:
+Not specified
+
+<b>Medications and medical devices</b>:
+Medication name: Acycolic mesolazine
+Dose: 800 mg
+Form: Oral
+Frequency: 3 x a day
+Comment: Patient advised to start this medication and avoid penicillin-based antibiotics due to an allergy.
+
+<b>Signature</b>:
+Yours faithfully,
+Person completing record: Dr. Ruth Jones, Consultant Gastroenterologist
+Date: not specified
+Distribution list: Ms. Critchard (patient), Dr. O'Reilly (GP)
