@@ -29,7 +29,7 @@ app = FastAPI()
 os.makedirs("reports", exist_ok=True)
 
 # Initialize Groq API (Replace with your key)
-client = Groq(api_key="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")
+client = Groq(api_key="")
 
 # Example output format for extraction
 ExampleOutputFormat = """
