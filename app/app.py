@@ -77,7 +77,7 @@ def edit_report():
 @app.route("/final_report")
 def final_report():
     # Call the hook URL to get the final report response.
-    hook_url = "https://hook.eu1.make.com/1agttmoeljh8lm98l9gxtida472e5449"
+    hook_url = ""
     try:
         # Using GET since clicking the link works.
         response = requests.get(hook_url)
@@ -89,7 +89,7 @@ def final_report():
 
 @app.get("/call-hook")
 def call_hook():
-    url = "https://hook.eu1.make.com/1agttmoeljh8lm98l9gxtida472e5449"
+    url = ""
     try:
         response = requests.get(url)
         response.raise_for_status()
